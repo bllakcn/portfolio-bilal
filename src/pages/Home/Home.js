@@ -9,7 +9,7 @@ const line = "{/*Tech Enthusiast*/}"
 export default function Home() {
   return (
     <div>
-      <main className='lg:flex bg-black justify-between'>
+      <main className='lg:px-16 lg:flex bg-black justify-between'>
         <header className="lg:flex-1 lg:max-w-xl bg-black min-h-screen flex flex-col justify-center items-center mx-auto -mt-10">
           <img className="w-64 h-64 mb-5 rounded-full" src={profile} alt="profile" />
           <div className='text-center mt-16'>
@@ -19,7 +19,7 @@ export default function Home() {
             <h3 className='p-0 m-0 tracking-wide text-l font-mono select-none text-neutral-500'>{line}</h3>
           </div>
         </header>
-        <div className='lg:opacity-90 lg:hover:opacity-100 lg:transition-opacity lg:flex-1 min-h-screen bg-black flex flex-col justify-center gap-20 md:gap-0'>
+        <div className='lg:max-w-3xl mx-auto lg:opacity-90 lg:hover:opacity-100 lg:transition-opacity lg:flex-1 min-h-screen bg-black flex flex-col justify-center gap-20 md:gap-0'>
           <About></About>
           <Skills></Skills>
           <Contact></Contact>
