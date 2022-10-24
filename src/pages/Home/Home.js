@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <main className='lg:flex bg-black justify-between'>
-        <header className="lg:flex-1 lg:max-w-xl bg-black min-h-screen flex flex-col justify-center items-center mx-auto">
+        <header className="lg:flex-1 lg:max-w-xl bg-black min-h-screen flex flex-col justify-center items-center mx-auto -mt-10">
           <img className="w-64 h-64 mb-5 rounded-full" src={profile} alt="profile" />
           <div className='text-center mt-16'>
             <p className="mb-4 text-3xl tracking-wider text-transparent bg-clip-text bg-gradient-to-b from-neutral-400 via-neutral-400 to-transparent">Hi!</p>
