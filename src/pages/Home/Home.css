@@ -1,0 +1,10 @@
+@media (min-width: 1024px) {
+  footer{
+    filter: opacity(.5);
+    transition: filter .2s ease;
+    background-image: linear-gradient(to right, rgb(0,0,0,0), rgb(23,23,23,1), rgb(0,0,0,0) );
+  }
+  footer:hover{
+    filter: opacity(1);
+  }
+}

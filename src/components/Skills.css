@@ -1,0 +1,17 @@
+.grey-filtered img{
+  filter: grayscale(95%);
+  transition: filter .2s ease-out;
+}
+.grey-filtered img:hover{
+  filter: grayscale(0);
+}
+.highlight-tools::before{
+  content: '';
+  width: 100px;
+  height: 20px;
+  left: -5px;
+  bottom: -4px;
+  background-color: rgba(49, 46, 129,.5);
+  position: absolute;
+  z-index: -1;
+}
