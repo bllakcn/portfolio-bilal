@@ -10,6 +10,7 @@ import ailogo from '../assets/ai.png'
 import lrlogo from '../assets/lr.png'
 import xdlogo from '../assets/xd.png'
 import splinelogo from '../assets/spline.png'
+import sasslogo from '../assets/sass.png'
 
 import './Skills.css'
 
@@ -19,7 +20,8 @@ const frontSkills = [
   {name:jslogo, id:3},
   {name: reactlogo, id:4},
   {name:vuelogo, id:5},
-  {name:tailwindlogo, id:6}
+  {name:tailwindlogo, id:6},
+  {name:sasslogo, id:7}
 ]
 const contentSkills = [
   {name:pslogo, id:1},
@@ -35,7 +37,7 @@ export default function Skills() {
       <h2 className='text-center text-neutral-200 text-xl my-10'>My <span className='highlight-tools relative z-10 text-2xl font-black'>Toolset</span></h2>
       <div className='mx-auto text-center'>
         <p className='font-thin mx-6 text-sm tracking-widest'>Front-end development</p>
-        <div className='grid ml-0 p-4 grid-cols-6 gap-5 grey-filtered'>
+        <div className='grid ml-0 p-4 grid-cols-7 gap-5 grey-filtered'>
           {frontSkills.map((skill) => (
             <img className='w-12' key={skill.id} src={skill.name} alt={skill.name} />
           ))}
