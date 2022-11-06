@@ -20,8 +20,8 @@ const frontSkills = [
   {name:jslogo, id:3},
   {name: reactlogo, id:4},
   {name:vuelogo, id:5},
-  {name:tailwindlogo, id:6},
-  {name:sasslogo, id:7}
+  {name:sasslogo, id:6},
+  {name:tailwindlogo, id:7}
 ]
 const contentSkills = [
   {name:pslogo, id:1},
