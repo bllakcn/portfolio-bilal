@@ -1,7 +1,7 @@
 import profile from '../../assets/profile.jpg'
-import Skills from '../../components/Skills'
-import About from '../../components/About' 
-import Contact from '../../components/Contact'
+import Skills from './components/Skills'
+import About from './components/About' 
+import Contact from './components/Contact'
 import './Home.css'
 
 const line = "{/*Tech Enthusiast*/}"
