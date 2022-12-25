@@ -19,7 +19,7 @@ export default function Home() {
             <h3 className='p-0 m-0 tracking-wide text-l font-mono select-none text-neutral-500'>{line}</h3>
           </div>
         </header>
-        <div className='lg:max-w-3xl mx-auto lg:opacity-90 lg:hover:opacity-100 lg:transition-opacity lg:flex-1 min-h-screen bg-black flex flex-col justify-center gap-20 md:gap-0'>
+        <div className='lg:max-w-3xl mx-auto lg:flex-1 min-h-screen bg-black flex flex-col justify-center gap-20 md:gap-0 lg:opacity-90 lg:hover:opacity-100 lg:transition-opacity'>
           <About></About>
           <Skills></Skills>
           <Contact></Contact>

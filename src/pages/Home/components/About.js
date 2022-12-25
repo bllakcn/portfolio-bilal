@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './About.css'
 
 export default function About() {
@@ -8,6 +9,7 @@ export default function About() {
       <div className='z-10 text-center w-11/12 mx-auto max-w-lg'>
         <p><b>Architecture</b> graduate freelancing in <b>tech</b>. Passionate about <b>designing</b> and <b>developing</b> that great <b className='underline decoration-wavy'>user experience</b>.</p>
       </div>
+      <Link className='z-10 mt-5 underline-btn' to='/projects'>Take a look at the projects</Link>
     </section>
   )
 }

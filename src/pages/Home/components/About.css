@@ -3,7 +3,7 @@
     width: 0%;
   }
   100%{
-    width: 150px;
+    width: 200px;
   }
 }
 
@@ -24,6 +24,7 @@
 }
 .underline-btn {
   position: relative;
+  font-weight: 500;
 }
 .underline-btn::after {
   content: '';
@@ -39,7 +40,7 @@
 .underline-btn:hover::after {
   content: '';
   position: absolute;
-  width: 150px;
+  width: 200px;
   height: 1px;
   background-color: rgb(212 212 212);
   bottom: 0;
